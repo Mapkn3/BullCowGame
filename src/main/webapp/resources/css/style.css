@@ -1,0 +1,62 @@
+body {
+    background: url("../images/cow.jpg");
+    color: white;
+}
+
+.vert-center {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.horiz-center {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #d28b87;
+}
+
+.content {
+    padding: 5px 10px 5px 10px;
+    background: lightpink;
+}
+
+fieldset {
+    width: fit-content;
+    background-color: #d28b87;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0 0 10px 0;
+}
+
+.no-margin {
+    margin: 0 0 10px 0;
+}
